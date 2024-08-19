@@ -1,0 +1,17 @@
+.conteiner {
+    max-width: 600px;
+    width: 100%;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.title{
+text-align: center;
+}
+.time{
+    font-size: 34px;
+    font-weight: 800;
+}
