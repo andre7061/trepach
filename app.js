@@ -1,4 +1,4 @@
-function getTaimer(time) {
+function getTaimer(time=3) {
     let count = time * 60
     let n = 61
 
@@ -19,7 +19,7 @@ function getTaimer(time) {
             alert('Время вышло!!!')
         }
 
-    }, 100)
+    }, 1000)
 
 }
 
@@ -30,5 +30,5 @@ function formaterDate(time) {
         return time
     }
 }
-getTaimer(5)
+getTaimer()
 
